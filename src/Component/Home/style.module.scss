@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "Fira Sans";
+    src: url("../Forms/FiraSans-Regular.ttf");
+}
+
+$font: "Fira Sans", sans-serif;
+
+.App {
+  text-align: center;
+  font-family: $font;
+}
+
+.AppLogo {
+  height: 40vmin;
+  pointer-events: none;
+  user-select: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .AppLogo {
+    animation: AppLogo-spin infinite 20s linear;
+  }
+}
+
+.AppHeader {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(3, 3, 3);
+}
+
+.AppLink {
+  color: #61dafb;
+}
+
+@keyframes AppLogo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
