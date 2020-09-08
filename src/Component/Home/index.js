@@ -14,11 +14,11 @@ class index extends Component {
                     </p>
                     <a
                         className={styles.AppLink}
-                        href="https://reactjs.org"
+                        href="https://github.com/Qudusayo/Login-Frontend"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        BUY ME A COFFEE
+                        GIVE A STAR
                     </a>
                 </header>
             </div>
